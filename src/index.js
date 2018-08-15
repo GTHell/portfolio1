@@ -8,6 +8,8 @@ import './js/gsap'
 
 import 'chart.js'
 
+lazyload();
+
 var ctx = document.getElementById('language-chart').getContext('2d');
 var chart = new Chart(ctx, {
   // The type of chart we want to create
